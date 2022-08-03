@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #718387;
+    padding: 20px;
+
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: #414141;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.imagem {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #486288;
+}
+
+.cabecalho {
+    background-color: #98336C;
+    background: linear-gradient(90deg, #48628899 0%, #48628899, #98336C99 100%);
+
+}
