@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand';
 }
 
 .menu {
     background-color: #718387;
     padding: 20px;
-
 }
 
 .link {
@@ -21,17 +23,47 @@
 
 .titulo {
     text-align: center;
-}
-
-.imagem {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #486288;
+    color: #fff;
+    margin-top: 45px;
 }
 
 .cabecalho {
     background-color: #98336C;
-    background: linear-gradient(90deg, #48628899 0%, #48628899, #98336C99 100%);
+    background: linear-gradient(90deg, #3e506d6b 0%, #48628899, #98336C99 100%), url(imgs/fundo.jpg)no-repeat center center/cover;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
+
+.imagem {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 83px;
+    border: 4px solid #ccc;
+
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100px;
+    gap: 54px;
+}
+
+.principal {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 0px 0px 20px;
+}
+
+.titulo-principal {
+    margin-bottom: 16px;
+}
+
+p {}
